@@ -17,15 +17,14 @@
 
 
 <body>
-    <h1>Covid Stats!</h1><br>
+    <h1>Covid Stats</h1>
     <form method="POST">
-        <label >Enter a Country Code</label><br><br>
-    <input placeholder="Country Code" name="text">
-    <input type="submit">
-</form>
-    <img src="{{image }}">
-
-
-    <p>You have {{ count }} Visitors.</p>
+        <label>Enter a country name: </label>
+        <br><br>
+        <input placeholder="countryname" name="text">
+        <input type="submit" >
+    </form>
+    <iframe src="{{ image }}"></iframe>
+    <p>You have {{ count }} visitors</p>
 </body>
 </html>
